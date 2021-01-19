@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="my.mtg.throneofeldraine.MainActivity">
+
+      <item
+      android:id="@+id/mana_spinner"
+      android:title="ManaSpinner"
+      app:actionViewClass="my.mtg.throneofeldraine.MultiSelectionSpinner"
+      app:showAsAction="ifRoom"/>
+
+      <item
+      android:id="@+id/rarity_spinner"
+      android:title="RaritySpinner"
+      app:actionViewClass="my.mtg.throneofeldraine.MultiSelectionSpinner"
+      app:showAsAction="ifRoom"/>
+
+      <item
+      android:id="@+id/action_search"
+      android:icon="@android:drawable/ic_menu_search"
+      android:title="Search"
+      app:actionViewClass="android.widget.SearchView"
+      app:showAsAction="always"/>
+
+</menu>
